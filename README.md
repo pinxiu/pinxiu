@@ -33,5 +33,5 @@ Tracks skills, weekly plans, a ship log and reading notes. Runs entirely in the 
 **[ESV Bible Tracker](https://github.com/pinxiu/esv-bible-tracker)**
 A macOS app for reading the Bible chronologically, memorizing Scripture with a typewriter-style workspace, and keeping a personal verse collection.
 
-**[Handout Bridge](https://github.com/pinxiu/handout)**
+**[Handout Bridge](https://handout-bridge.kwokp.workers.dev/)** · [repo](https://github.com/pinxiu/handout)
 Turns English Bible-study handouts (DOCX/PDF) into bilingual or Chinese editions. It inserts ESV and CUV passage text, keeps both languages aligned on the page, and exports to Word or Google Docs.
