@@ -30,6 +30,9 @@ Tracks skills, weekly plans, a ship log and reading notes. Runs entirely in the 
 
 #### Faith & community
 
+**[Legacy Map 宣教遗迹地图](https://missionary-legacy-map-taupe.vercel.app)**
+The history of Christianity in China, mapped site by site with every fact sourced. Details under Featured above.
+
 **[ESV Bible Tracker](https://github.com/pinxiu/esv-bible-tracker)**
 A macOS app for reading the Bible chronologically, memorizing Scripture with a typewriter-style workspace, and keeping a personal verse collection.
 
