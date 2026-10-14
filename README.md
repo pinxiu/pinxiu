@@ -1,4 +1,4 @@
-### Hi, I'm PK 👋
+## Hi, I'm PK 👋
 
 Software engineer at **[Sumble](https://sumble.com)**, building sales-intelligence data products. Before that, **Google**. UC Berkeley alum, eight years across backend and full-stack systems, real-time and stream processing, cloud infrastructure, and LLM APIs.
 
@@ -8,7 +8,7 @@ Lately I build **AI agent pipelines that people can trust**: rules first and mod
 
 ---
 
-#### Featured
+### Featured
 
 **[Legacy Map 宣教遗迹地图](https://missionary-legacy-map-taupe.vercel.app)** · *code private*
 A mobile-first, bilingual map of the history of Christianity in China, starting with Zhejiang: missions, churches, schools, hospitals and memorials, where every fact links to its source. Claude agents scout, crawl, extract and translate sources every six hours. A separate verifier confirms each excerpt really appears in its source, a different model audits random samples, and nothing publishes without my approval.
@@ -28,7 +28,7 @@ Two-line English and Chinese subtitles for any video, fully on-device: faster-wh
 **[Learning Tracker](https://pinxiu.github.io/learning_tracker/)** · [repo](https://github.com/pinxiu/learning_tracker)
 Tracks skills, weekly plans, a ship log and reading notes. Runs entirely in the browser.
 
-#### Faith & community
+### Faith & community
 
 **[Legacy Map 宣教遗迹地图](https://missionary-legacy-map-taupe.vercel.app)**
 The history of Christianity in China, mapped site by site with every fact sourced. Details under Featured above.
