@@ -19,6 +19,9 @@ Admissions data for all 147 HKU taught-postgraduate programmes: deadlines, fees,
 **[Daily Perspective](https://pinxiu.github.io/daily-perspective/)** · [repo](https://github.com/pinxiu/daily-perspective)
 A self-updating, bilingual (English / 简体中文) daily news digest across AI, tech, world affairs, the economy, and stories chosen to widen perspective. GitHub Actions pull RSS feeds, Claude picks what matters and why, and the site, RSS feed, email and audio publish themselves. A weekly job reads the whole archive to spot trends.
 
+**Care** · *code private*
+A local-first assistant for caring for the people in my life. It reads forwarded emails, iMessages, WeChat screenshots and quick notes, then turns them into one to three small actions a day and tracks the follow-ups. Python and FastAPI with a web UI, Claude for extraction and drafting, and a privacy doc listing exactly what leaves the Mac. It never sends anything on its own.
+
 **VocabBridge** · *code private*
 A vocabulary app for the Mac, the web and Chrome. Gemini extracts vocabulary from documents, rates difficulty, and exports annotated PDFs. The Electron app updates itself from GitHub Releases, and the Chrome extension sends articles straight to it.
 
@@ -27,6 +30,9 @@ Two-line English and Chinese subtitles for any video, fully on-device: faster-wh
 
 **[Learning Tracker](https://pinxiu.github.io/learning_tracker/)** · [repo](https://github.com/pinxiu/learning_tracker)
 Tracks skills, weekly plans, a ship log and reading notes. Runs entirely in the browser.
+
+**Psalm46** · *code private*
+A Chrome extension that keeps a healthy rhythm on sites like LinkedIn, Gmail and AI chat: daily visit limits, a gap between visits, a per-visit countdown, quiet hours, and a one-tap family-time pause.
 
 ### Faith & community
 
@@ -38,3 +44,6 @@ A macOS app for reading the Bible chronologically, memorizing Scripture with a t
 
 **[Handout Bridge](https://handout-bridge.kwokp.workers.dev/)** · [repo](https://github.com/pinxiu/handout)
 Turns English Bible-study handouts (DOCX/PDF) into bilingual or Chinese editions. It inserts ESV and CUV passage text, keeps both languages aligned on the page, and exports to Word or Google Docs.
+
+**Christmas Gift Exchange** · *WeChat mini program, code private*
+A gift swap for group events. Everyone registers a gift, each gift gets its own QR code, and whoever scans it claims the gift and leaves shipping details for the giver. Built on WeChat Cloud Development, with reminders and claim notifications sent through subscription messages.
