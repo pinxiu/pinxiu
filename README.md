@@ -10,8 +10,8 @@ Lately I build **AI agent pipelines that people can trust**: rules first and mod
 
 ### Featured
 
-**[Legacy Map 宣教遗迹地图](https://missionary-legacy-map-taupe.vercel.app)** · *code private*
-A mobile-first, bilingual map of the history of Christianity in China, starting with Zhejiang: missions, churches, schools, hospitals and memorials, where every fact links to its source. Claude agents scout, crawl, extract and translate sources every six hours. A separate verifier confirms each excerpt really appears in its source, a different model audits random samples, and nothing publishes without my approval.
+**[Legacy Map 宣教遗迹地图](https://missionary-legacy-map-taupe.vercel.app)** · [repo](https://github.com/pinxiu/missionary-legacy-map)
+A mobile-first, bilingual map of the history of Christianity in China, rolling out province by province: missions, churches, schools, hospitals and memorials, where every fact links to its source. Claude agents search each province and its cities, pool what they find (each page is hashed and read once, however many searches turn it up) and extract every place on a page in one pass; Amap and open geodata place the pins. A separate verifier confirms each excerpt really appears in its source, a different model audits random samples, and a province goes live only when the audit agreement clears 80%. Visitor edits and anything the auditor disputes still wait for my approval.
 
 **[HK Admissions Data](https://hk-admissions-data.vercel.app)** · *code private*
 Admissions data for all 147 HKU taught-postgraduate programmes: deadlines, fees, English requirements and contacts, refreshed every six hours. A rules extractor handles most pages; agents fill only the gaps, and a locked checker rejects any value that doesn't appear verbatim on the archived page. Nightly audits track regressions.
@@ -37,7 +37,7 @@ A Chrome extension that keeps a healthy rhythm on sites like LinkedIn, Gmail and
 ### Faith & community
 
 **[Legacy Map 宣教遗迹地图](https://missionary-legacy-map-taupe.vercel.app)**
-The history of Christianity in China, mapped site by site with every fact sourced. Details under [Featured](#featured) above.
+The history of Christianity in China, mapped site by site with every fact sourced, now open source. Details under [Featured](#featured) above.
 
 **[ESV Bible Tracker](https://github.com/pinxiu/esv-bible-tracker)**
 A macOS app for reading the Bible chronologically, memorizing Scripture with a typewriter-style workspace, and keeping a personal verse collection.
