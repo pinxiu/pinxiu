@@ -14,13 +14,13 @@ Lately I build **AI agent pipelines that people can trust**: rules first and mod
 A mobile-first, bilingual map of the history of Christianity in China, rolling out province by province: missions, churches, schools, hospitals and memorials, where every fact links to its source. Claude agents search each province and its cities, pool what they find (each page is hashed and read once, however many searches turn it up) and extract every place on a page in one pass; Amap and open geodata place the pins. A separate verifier confirms each excerpt really appears in its source, a different model audits random samples, and a province goes live only when the audit agreement clears 80%. Visitor edits and anything the auditor disputes still wait for my approval.
 
 **[HK Admissions Data](https://hk-admissions-data.vercel.app)** · *code private*
-Admissions data for all 147 HKU taught-postgraduate programmes: deadlines, fees, English requirements and contacts, refreshed every six hours. A rules extractor handles most pages; agents fill only the gaps, and a locked checker rejects any value that doesn't appear verbatim on the archived page. Nightly audits track regressions.
+Admissions data for all 159 HKU taught-postgraduate programmes: deadlines, fees, English requirements and contacts, refreshed every six hours. A rules extractor handles most pages; agents fill only the gaps, and a locked checker rejects any value that doesn't appear verbatim on the archived page. Nightly audits track regressions.
 
 **[Daily Perspective](https://pinxiu.github.io/daily-perspective/)** · [repo](https://github.com/pinxiu/daily-perspective)
 A self-updating, bilingual (English / 简体中文) daily news digest across AI, tech, world affairs, the economy, and stories chosen to widen perspective. GitHub Actions pull RSS feeds, Claude picks what matters and why, and the site, RSS feed, email and audio publish themselves. A weekly job reads the whole archive to spot trends.
 
 **Care** · *code private*
-A local-first assistant for caring for the people in my life. It reads forwarded emails, iMessages, WeChat screenshots and quick notes, then turns them into one to three small actions a day and tracks the follow-ups. Python and FastAPI with a web UI, Claude for extraction and drafting, and a privacy doc listing exactly what leaves the Mac. It never sends anything on its own.
+A local-first assistant for caring for the people in my life. It reads forwarded emails, iMessages, WeChat screenshots and quick notes, then keeps a running list of small actions in date order and tracks the follow-ups. A prayer list rotates through every open request, so I can pray for as many as I have time for. Python and FastAPI with a web UI, Claude for extraction and drafting, and a privacy doc listing exactly what leaves the Mac. It never sends anything on its own.
 
 **VocabBridge** · *code private*
 A vocabulary app for the Mac, the web and Chrome. Gemini extracts vocabulary from documents, rates difficulty, and exports annotated PDFs. The Electron app updates itself from GitHub Releases, and the Chrome extension sends articles straight to it.
